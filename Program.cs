@@ -10,11 +10,12 @@ namespace Exercicio4_ContadorFor_PauloAraujo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Contador");
+            Console.WriteLine("---Contador---");
             for(int i = 1; i <= 50 ; i++)
             {
                 Console.WriteLine(i);
             }
+            Console.WriteLine("---Fim da Contagem---");
             Console.ReadKey();
         }
     }
